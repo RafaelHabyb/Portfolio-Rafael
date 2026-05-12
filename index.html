@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/Cursos Html/Curso Html/perfil.js" defer></script>
+    <link rel="icon" href="/photos/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="perfil-header" id="topo">
+        <h1>Rafael Habyb</h1>
+        <nav class="perfil-header__nav" aria-label="Ir para seção">
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="perfil-main">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>I'm learning about web development.</p>
+            <img src="/photos/mePhoto.jpeg" alt="My Photo" width="200x200" class="profile-photo">
+        </section>
+        <section class="section" id="skills">
+            <h2>My skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="perfil-footer" id="contact">
+        <h2>Contacts</h2>
+        <table>
+            <caption> Where to find me </caption>
+            <thead>
+                <tr>
+                    <th scope="col"> Network </th>
+                    <th scope="col"> Link </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> GitHub</td>
+                    <td><a href="https://github.com/RafaelHabyb" target="_blank"> https://github.com/RafaelHabyb</a></td>
+                </tr>
+                <tr>
+                    <td> LinkedIn</td>
+                    <td><a href="www.linkedin.com/in/rafaelhabyb" target="_blank"> www.linkedin.com/in/rafaelhabyb</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="perfil-footer__extras" id="msg-visita" role="status"></p>
+        <p class="perfil-footer__copy">
+        © <span id="rodape-ano"></span> Rafael Habyb. All rights reserved.
+        </p>
+    </footer>
+    <button type="button" id="btn-voltar-topo" class="btn-voltar-topo escondendo" aria-label="Voltar ao topo"> ↑</button>
+</body>
+</html>
